@@ -1,0 +1,52 @@
+/* #bannerBox =================================== */
+#bannerBox{width: 100%;min-width: 960px; height: 300px; background-color:#0094f9; }
+.title{width: 300px; height: 100px; text-align: center; float: right; margin-top: 100px; margin-right: 180px; font-weight: bold; font-size: 2.5rem;}
+#bannerBox>.bannerImg{width: 100%; height: 300px;
+background-image: url("../../img/main/banner01.png"); background-size: cover; background-repeat: no-repeat; ; }
+
+/* #contentBox ============================================= */
+#contentBox{width: 100%;min-width: 960px; height: 1400px; padding: 0 3.7rem; box-sizing: border-box;}
+h3{width: 100%; height: 40px; border-bottom: 1px solid #eee; line-height: 40px; color: #ff99cc; margin-top: 30px;}
+.madecaproduct{width: 960px;height: 100%;margin: auto;}
+.madecaproduct>.content01{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.madecaproduct>dl>.contentImg01{width: 300px; height: 300px;margin-top: 50px; float: left;
+  background-image: url("../../img/madecasoside/01.jpg"); background-repeat: no-repeat;
+background-size: contain;}
+.madecaproduct>dl>.text01{width: 300px; height: 30px;line-height: 30px; font-size: 1rem; font-weight: bold;margin-top: 10px; float: left;}
+.madecaproduct>dl>.text02{width: 300px; height: 100px; color: #777; fon드-size: 0.8rem; line-height: 25px; float: left;}
+
+.madecaproduct>.content02{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.madecaproduct>dl>.contentImg02{width: 300px; height: 300px; float: left; margin-top: 50px; 
+ background-image: url("../../img/madecasoside/02.jpg"); background-repeat: no-repeat;
+background-size: contain;}
+.madecaproduct>.content02>.text01{width: 300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px;float: left;}
+.madecaproduct>.content02>.text02{width: 300px; height: 100px; color: #777;font-size: 0.8rem;  line-height: 25px; float: left; }
+
+.madecaproduct>.content03{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.madecaproduct>dl>.contentImg03{width: 300px; height: 300px; float: left; margin-top: 50px; 
+ background-image: url("../../img/madecasoside/03.jpg"); background-repeat: no-repeat;
+background-size: contain;}
+.madecaproduct>.content03>.text01{width: 300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px;float: left;}
+.madecaproduct>.content03>.text02{width: 300px; height: 100px; color: #777;font-size: 0.8rem;  line-height: 25px; float: left;}
+
+
+.madecaproduct>.content04{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.madecaproduct>dl>.contentImg04{width: 300px; height: 300px; float: left; margin-top: 50px; 
+ background-image: url("../../img/madecasoside/04.jpg"); background-repeat: no-repeat;
+background-size: contain;}
+.madecaproduct>.content04>.text01{width: 300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px; float: left;}
+.madecaproduct>.content04>.text02{width: 300px; height: 100px; color: #777;font-size: 0.8rem;  line-height: 25px; float: left; }
+
+.madecaproduct>.content05{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.madecaproduct>dl>.contentImg05{width: 300px; height: 300px; float: left; margin-top: 50px; 
+ background-image: url("../../img/madecasoside/05.jpg"); background-repeat: no-repeat;
+background-size: contain;}
+.madecaproduct>.content05>.text01{width: 300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px; float: left;}
+.madecaproduct>.content05>.text02{width: 300px; height: 100px; color: #777;font-size: 0.8rem;  line-height: 25px; float: left; }
+
+.madecaproduct>.content06{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.madecaproduct>dl>.contentImg06{width: 300px; height: 300px; float: left; margin-top: 50px; 
+ background-image: url("../../img/madecasoside/06.jpg"); background-repeat: no-repeat;
+background-size: contain;}
+.madecaproduct>.content06>.text01{width:300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px; float: left;}
+.madecaproduct>.content06>.text02{width: 300px; height: 100px; color: #777;font-size: 0.8rem;  line-height: 25px; float: left; }

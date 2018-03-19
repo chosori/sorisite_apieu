@@ -1,0 +1,19 @@
+/* #bannerBox =================================== */
+#bannerBox{width: 100%; height: 300px; }
+.title{width: 300px; height: 100px; text-align: center; float: right; margin-top: 100px; margin-right: 180px; font-weight: bold; font-size: 2.5rem; color: #fff;}
+#bannerBox>.bannerImg{width: 100%; height: 300px; background-image: url("../../img/dutchtulip/bannerBox2.png"); background-repeat: no-repeat; background-size:cover; }
+
+/* #contentBox ===================================== */
+#contentBox{width: 100%;min-width: 960px; height: 1000px; padding: 3.7rem; box-sizing: border-box;}
+h3{width: 100%; height: 50px; border-bottom: 1px solid #eee; line-height: 40px; color: #ff99cc; margin-top: 30px; float: left;}
+.blemishproduct{width: 960px;height: 100%; margin:0 auto;}
+.blemishproduct>.content01{width: 400px; height: 640px;  float: left;}
+.blemishproduct>.content01>dt{width:400px; height: 400px;margin-top: 60px; background-image: url("../../img/dutchtulip/blemish01.jpg"); background-repeat: no-repeat; background-position: center; background-size: contain;} 
+.blemishproduct>dl>.text01{width: 200px; height: 30px;line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 30px; }
+.blemishproduct>dl>dd.text02{width: 100%; height: 100px; color: #777;font-size: 0.8rem; line-height: 25px;}
+
+.blemishproduct>.content02{width: 400px; height: 640px; margin-left: 160px; float: left; }
+.blemishproduct>.content02>dt{width: 400px; height: 400px;float:left; margin: 0 auto; margin-top: 60px; background-image: url("../../img/dutchtulip/blemish02.jpg"); background-repeat: no-repeat; background-position: center; background-size: contain;}
+.blemishproduct>dl.content02>.text01{width: 200px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 30px; float: left;}
+.blemishproduct>dl.content02>.text02{width: 100%; height: 100px; color: #777;font-size: 0.8rem; line-height: 25px;float: left;margin-right: 50px;}
+

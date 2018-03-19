@@ -1,0 +1,62 @@
+/* #headBox ================================== */
+#headBox{width: 100%;min-width: 960px; height: 240px;margin: 0 auto; }
+#headBox:after{content: " "; display: block; clear: both;}
+
+/* #ulb ========================= */
+#ulb{width: 100%;min-width: 960px; height: 40px; background-color: rgb(236,24,147);}
+form{width:100%; height: 100%;}
+fieldset{width: 100%; height: 100%; float: right;}
+select{width: 90px; height: 20px; float: right; margin-right: 60px; margin-top: 10px; background-color: transparent; color: #fff; cursor: pointer;}
+/* .cart ==========================*/
+.cart{width: 30px; height: 20px; float: right; margin-top: 10px; margin-right: 30px;}
+.cart>a{display: block; width: 100%; height: 100%; text-align: center;}
+.cart>a>i{color: #fff; transform: rotateY(180deg); font-size: 1.2rem;}
+/* .search ==============================*/
+.searchTie{width: 50px;height: 25px;position: relative; float: right; top: 7px; margin-right: 30px;overflow: hidden; transition:all 800ms ease;}
+.searchTie.active{width: 250px;}
+#searchBox{width: 0; height: 100%; position: absolute; text-indent: 10px; top: 0; right: 0;}
+#searchBox.active{width: 100%;}
+.search_btn{width:40px; height: 100%; position: absolute; right: 0; font-size: 1.2rem; background-color: transparent; color: #fff; z-index: 200;}
+  .login{width: 60px; height: 20px; float: right; margin-top: 10px;}
+  .login>a{display: block; width: 100%; height: 100%; color: #fff; font-size: 1.2rem;}
+/* #gnb =============================== */
+#gnb{width: 100%; min-width: 960px; height: 200px;}
+h1{width: 140px; height: 60px; margin: 0 auto;
+background-image: url("../../img/logo_01.png");
+background-repeat: no-repeat; background-size: contain; background-position: center; }
+h1>a{display: block; width: 100%; height: 100%;}
+/* .lnb ==================================== */
+.lnbBox{width: 100%; min-width: 960px;height: auto;margin: 0 auto;}
+.lnb{width: 960px;min-width: 960px;  height: auto; margin:0 auto; margin-top: 20px;}
+.lnb>.big{width: 160px; height: 30px;float: left; padding: 0.3rem; box-sizing: border-box;  margin-left: 95px; }
+
+.lnb>.big>a{display: block; width: 100%; height: 100%; color: #333; font-size: 1.1rem; font-weight: bold;text-align: center; position: relative;}
+.lnb>.big>a:after{content:" "; display: block; position: absolute; width: 0; height: 0; border-bottom: 3px solid #f06; bottom: 0; left: 50%; margin-left: 0; transition:all 500ms ease;}
+.lnb>.big>a:focus, .lnb>li>a:hover{background-color:transparent; text-decoration: none;}
+.lnb>.big>a:focus:after,.lnb>li>a:hover:after{width: 100%; margin-left: -50%;}
+
+
+.lnb>li{width: 160px; height: 30px;float: left; padding: 0.3rem; box-sizing: border-box;  margin-left: 30px;}
+.lnb>li>a{display: block; width: 100%; height: 100%; color: #333; font-size: 1.1rem; font-weight: bold;text-align: center; position: relative;}
+.lnb>li>a:after{content:" "; display: block; position: absolute; width: 0; height: 0; border-bottom: 3px solid #f06; bottom: 0; left: 50%; margin-left: 0; transition:all 500ms ease;}
+.lnb>li>a:focus, .lnb>li>a:hover{background-color:transparent; text-decoration: none;}
+.lnb>li>a:focus:after,.lnb>li>a:hover:after{width: 100%; margin-left: -50%;}
+
+.small{width: 960px; min-width: 960px; height:225px; float: left;  border-top: 1px solid #999; border-bottom: 1px solid #999;background-color: #fff; margin-left: -100px; position: absolute; z-index: 100;}
+.small>dl{float: left; margin-top: 30px; margin-right: 60px; padding: 15px; box-sizing: border-box;}
+.small>dl>dt{font-weight:bold; margin-bottom: 20px;}
+.small>dl>dd{margin-bottom: 10px; }
+.small>dl>dd>a{display:block; margin-bottom: 10px; color: #333; }
+.small>dl>dd>a:focus, .small>dl>dd>a:hover{background-color: transparent; text-decoration: none;}
+.small>dl>dd>a:focus:after, .small>dl>dd>a:hover:after{width: 100%; margin-left: -50%;}
+/*.small>dl:nth-of-type(1){margin-left: 10px; }*/
+.small>dl:nth-of-type(2)>dd{margin-top: 16px; }
+.small>dl:nth-of-type(3)>dd{margin-top: 16px; }
+.small>dl:nth-of-type(4)>dd{margin-top: 16px; }
+.small>dl:nth-of-type(5){ height: 140px; padding:0  20px; box-sizing: border-box; border-left: 1px solid #ddd;}
+
+
+
+
+
+

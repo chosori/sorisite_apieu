@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- event.html -->
+<html lang="ko-KR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!--   <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--[if lte IE9]>
+        <script src="../js/base/html5shiv-printshiv.js"></script>
+        <script src="../js/base/html5shiv.js"></script>
+
+    <![endif]-->
+    
+
+    <!--[if IE]>
+    <![endif]-->
+    <!-- fontAwesome and nanumGothicFont -->
+    <link rel="stylesheet" href="../../fontawesome_new/web-fonts-with-css/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../../font/localFont/transfonterNanum/stylesheet.css">
+
+    <!-- css Reset and globalClass -->
+    <link rel="stylesheet" href="../../css/base/reset.css">
+    <link rel="stylesheet" href="../../css/base/common.css">
+    <!-- use css -->
+    <link rel="stylesheet" href="../../css/src/import.css">
+     <link rel="stylesheet" href="../../css/src/top.css">
+    <link rel="stylesheet" href="../../css/src/event.css">
+    <!-- faviconFile -->
+    <link rel="apple-touch-icon" href="../../favicon.png">
+    <link rel="shortcut icon" href="../../favicon.png" type="image/x-icon">
+  <title>이벤트</title>
+
+</head>
+<body>
+  <div id="wrap">
+<!-- #contentBox ============================== -->
+<article id="contentBox" class="clearfix">
+  <h2 class="title">event</h2>
+  <nav id="lnb">
+    <ul>
+      <li class="nav01"><a href="./event.html">진행중인 이벤트</a></li>
+      <li class="nav02"><a href="../src/passevent.html">지난 이벤트</a></li>
+      <li class="nav03"><a href="../src/prize.html">당첨자 발표</a></li>
+    </ul>
+  </nav>
+
+  <div class="nav04">쇼핑찬스</div>
+
+<div class="eventproduct">
+  <dl class="content01">
+    <dt class="contentImg01"></dt>
+    <dd class="text01"> [스위스퓨어X찰스장]♥해피 홀리데이 에디션 출시!♥</dd>
+    <dd class="text02">하트하트한 해피 하트 손거울 증정!</dd>
+  </dl>
+
+
+  <dl class="content02">
+    <dt class="contentImg02"></dt>
+    <dd class="text01"> 미샤 멤버십 다이아몬드이상 우수회원 정품증정 이벤트</dd>
+    <dd class="text02">6종 중 택1</dd>
+  </dl>
+
+  <dl class="content03">
+    <dt class="contentImg03"></dt>
+    <dd class="text01">'NEW 래디언스 라인' 댓글 이벤트</dd>
+    <dd class="text02">하트하트한 해피 하트 손거울 증정!</dd>
+  </dl>
+
+<dl class="content04">
+    <dt class="contentImg04"></dt>
+    <dd class="text01">'시그너처 에센스 쿠션 기획세트' 댓글 이벤트</dd>
+    <dd class="text02">하트하트한 해피 하트 손거울 증정!</dd>
+  </dl>
+
+
+  <dl class="content05">
+    <dt class="contentImg05"></dt>
+    <dd class="text01">스위스퓨어 100만원 장바구니 이벤트</dd>
+    <dd class="text02">하트하트한 해피 하트 손거울 증정!</dd>
+  </dl>
+
+  <dl class="content06">
+    <dt class="contentImg06"></dt>
+    <dd class="text01">'세븐데이즈 컬러링 헤어트리트먼트' 댓글 이벤트</dd>
+    <dd class="text02">6종 중 택1</dd>
+  </dl>
+
+  <dl class="content07">
+    <dt class="contentImg07"></dt>
+    <dd class="text01"> '쥬얼 드롭 리퀴드 섀도우' 댓글 이벤트</dd>
+    <dd class="text02">하트하트한 해피 하트 손거울 증정!</dd>
+  </dl>
+
+  <dl class="content08">
+    <dt class="contentImg08"></dt>
+    <dd class="text01">'펄 인 러브 글로스' 댓글 이벤트</dd>
+    <dd class="text02">6종 중 택1</dd>
+  </dl>
+
+
+  <dl class="content09">
+    <dt class="contentImg09"></dt>
+    <dd class="text01"> '홀리데이 에디션 모던섀도우 이탈프리즘' 댓글 이벤트</dd>
+    <dd class="text02">하트하트한 해피 하트 손거울 증정!</dd>
+  </dl> 
+
+
+  <dl class="content10">
+    <dt class="contentImg10"></dt>
+    <dd class="text01">'래스팅 페인팅 틴트' 댓글 이벤트 </dd>
+    <dd class="text02">6종 중 택1</dd>
+  </dl> 
+</div>
+</article>
+
+<!-- top ============================== -->
+<div class="top_btn">
+      <a href="#">Top</a>
+    </div>
+  
+</div>
+  <!-- script -->
+    <script src="../../js/base/jquery-3.2.1.js"></script>
+    <script src="../../js/base/jquery-ui.js"></script>
+    <script src="../../js/src/import.js"></script>
+    <script src="../../js/src/event.js"></script>
+    <script>
+      (function($){
+     // .top_btn ====================================
+    var topBtn    = $('.top_btn');
+    var bannerBox = $('#contentBox').offset().top;
+    // console.log(bannerBox);
+    $(window).on('scroll', function(){
+        var scroll_top = $(this).scrollTop();
+        console.log(scroll_top);
+        if(scroll_top >= 500){
+            topBtn.fadeIn();
+
+        }else{
+            topBtn.fadeOut();
+        }
+    });
+
+    })(this.jQuery);
+    </script>
+
+</body>
+</html>

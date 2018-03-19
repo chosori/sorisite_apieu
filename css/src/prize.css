@@ -1,0 +1,54 @@
+
+.form02{width: 300px; height: 35px; float: right;}
+/*fieldset{width: 100%; height: 100%; float: right;}*/
+.searchTie02{width: 100%; height: 100%; float: right;
+border:1px solid #333; position: relative;}
+#searchBox02{width: 100%; height: 100%; text-indent:5px;}
+.search_btn02{width: 40px; height:35px;position: absolute; right: 0; bottom:0; background-color: transparent;}
+
+
+#contentBox{width: 100%; height: 1300px; padding: 0 3.7rem; box-sizing: border-box;}
+.title{width: 200px; height: 50px;line-height: 50px; color: #333; margin-top: 20px; font-size: 3.5rem; text-align: center;}
+#lnb{width: 100%; height: 60px; margin-top: 30px; border-bottom: 1px solid #eee;}
+#lnb>ul{width: 100%; height: 60px;}
+#lnb a{display: block; width: 100%; height: 100%; color: #333; font-size: 1rem;}
+#lnb a:focus{color: #ff99cc;width: 130px; border-bottom: 3px solid #ff99cc;}
+#lnb>ul>.nav01{width: 120px; height: 40px; float: left; text-align: center; line-height: 40px; margin-top: 10px; margin-left: 50px; font-weight: bold;}
+#lnb>ul>.nav02{width: 120px; height: 40px; float: left; text-align: center; line-height: 40px; margin-top: 10px; margin-left: 50px; font-weight: bold;}
+#lnb>ul>.nav03{width: 120px; height: 40px; float: left; text-align: center; line-height: 40px; margin-top: 10px; margin-left: 50px; font-weight: bold;}
+.nav04{width: 100px; height: 40px; text-align: center; line-height: 40px; margin-left: 130px; margin-top: 50px; font-size: 0.9rem; font-weight: bold;}
+.nav04>span{color: #f019;}
+
+
+.nav05{width: 100px; height: 40px; text-align: center; line-height: 40px; margin-left: 140px; margin-top:140px; font-size: 1rem; font-weight: bold;}
+.nav05>span{color: #f019; font-size: 1rem;}
+
+
+#contentBox>dl{width: 1000px;min-width:960px; height: 600px; margin: 0 auto; border-top: 2px solid #f9d; margin-top: 20px; }
+#contentBox>dl>dt{width: 1000px; height: 50px; float: left;  padding: 10px 0; box-sizing: border-box; }
+#contentBox>dl>dt>ul{width: 1000px; height: 40px; float: left; 
+box-sizing: border-box; padding:10px 0; border-bottom: 1px solid #eee;}
+
+#contentBox>dl>dt>ul>li{height: 100%; text-align: center; line-height: 50px; float:left; line-height: 30px; border-right: 1px solid #eee; box-sizing:border-box;}
+#contentBox>dl>dt>ul>.num{width: 100px; font-weight: bold; line-height: 20px;}
+#contentBox>dl>dt>ul>.headline{width: 600px;font-weight: bold; line-height: 20px;}
+#contentBox>dl>dt>ul>.date{width: 300px; border-right: 0;font-weight: bold; line-height: 20px;}
+
+#contentBox>dl>dd{width: 1000px; height: 50px; float: left;}
+#contentBox>dl>dd>ul{width: 1000px; height: 50px; float: left; border-bottom: 1px solid #eee;}
+
+#contentBox>dl>dd>ul>li{width: 1000px; height: 100%; text-align: center; line-height: 50px; float: left;}
+#contentBox>dl>dd>ul>li>.num{width: 100px; float: left;}
+#contentBox>dl>dd>ul>li>.headline02{width: 600px; float: left; line-height: 50px;}
+#contentBox>dl>dd>ul>li>.date{width: 300px; float: left;}
+
+.num_btn{width: 300px; height: 40px; margin: 0 auto;}
+.num_btn>li{width: 30px; height: 30px; background-color: #fff; float: left; margin-left: 10px; text-align: center; line-height: 30px; margin-top: 70px; }
+.num_btn a{display: block; width: 100%; height: 100%; border:1px solid #f9d;}
+.num_btn a:hover,
+.num_btn a:active,
+.num_btn a:focus{background-color: #f9d; color: #fff;}
+.num_btn>li:nth-of-type(1):hover{width: 100px;transition:all 800ms;}
+.num_btn>li:nth-of-type(4):hover{width: 100px;transition:all 800ms;}
+
+.num_btn>li>span{ color: #f9d; border: 1px solid #f9d; }

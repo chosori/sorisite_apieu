@@ -1,0 +1,48 @@
+/* #bannerBox =================================== */
+#bannerBox{width: 100%;min-width: 960px; height: 300px; background-color:#adf; }
+.title{width: 300px; height: 100px; text-align: center; float: right; margin-top: 100px; margin-right: 180px; font-weight: bold; font-size: 2.5rem;}
+#bannerBox>.bannerImg{width: 100%; height: 300px;
+background-image: url("../../img/aqua/bannerAqua");
+background-repeat: no-repeat; background-size: cover;
+/*background-position: 200px 30px;*/}
+
+/* #contentBox ============================================= */
+#contentBox{width: 100%;min-width: 960px; height: 1400px; padding: 0 3.7rem; box-sizing: border-box;}
+h3{width: 100%; height: 40px; border-bottom: 1px solid #eee; line-height: 40px; color: #ff99cc; margin-top: 30px;}
+.aquaproduct{width: 960px; min-width: 960px; height: 100%; margin: 0 auto;}
+.aquaproduct>.content01{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.aquaproduct>dl>.contentImg01{width: 300px; height: 300px;margin-top: 50px; float: left; 
+  background-image: url("../../img/aqua/Aquamarine01.jpg"); background-repeat: no-repeat; background-size: contain;}
+.aquaproduct>dl>.text01{width: 300px; height: 30px;line-height: 30px; font-size: 1rem; font-weight: bold;margin-top: 10px; float: left;}
+.aquaproduct>dl>.text02{width: 300px; height: 100px; color: #777;font-size: 0.8rem; line-height: 25px; float: left;}
+
+.aquaproduct>.content02{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.aquaproduct>dl>.contentImg02{width: 300px; height: 300px; float: left; margin-top: 50px; 
+  background-image: url("../../img/aqua/Aquamarine02.jpg"); background-repeat: no-repeat; background-size: contain;}
+.aquaproduct>.content02>.text01{width: 300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px;float: left;}
+.aquaproduct>.content02>.text02{width: 300px; height: 100px; color: #777; font-size: 0.8rem;line-height: 25px; float: left; }
+
+.aquaproduct>.content03{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.aquaproduct>dl>.contentImg03{width: 300px; height: 300px; float: left; margin-top: 50px; background-image: url("../../img/aqua/Aquamarine03.jpg"); background-repeat: no-repeat; background-size: contain;}
+.aquaproduct>.content03>.text01{width: 300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px; float: left;}
+.aquaproduct>.content03>.text02{width: 300px; height: 100px; color: #777;font-size: 0.8rem; line-height: 25px; float: left; }
+
+
+.aquaproduct>.content04{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.aquaproduct>dl>.contentImg04{width: 300px; height: 300px; float: left;margin-top: 50px;
+  background-image: url("../../img/aqua/Aquamarine04.jpg"); background-repeat: no-repeat; background-size: contain; }
+.aquaproduct>.content04>.text01{width: 300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px;float: left;}
+.aquaproduct>.content04>.text02{width: 300px; height: 100px; color: #777; font-size: 0.8rem;line-height: 25px; float: left; }
+
+.aquaproduct>.content05{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.aquaproduct>dl>.contentImg05{width: 300px; height: 300px; float: left; margin-top: 50px;
+ background-image: url("../../img/aqua/Aquamarine05.jpg"); background-repeat: no-repeat; background-size: contain;}
+.aquaproduct>.content05>.text01{width: 300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px;float: left;}
+.aquaproduct>.content05>.text02{width: 300px; height: 100px; color: #777;font-size: 0.8rem; line-height: 25px; float: left; }
+
+.aquaproduct>.content06{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.aquaproduct>dl>.contentImg06{width: 300px; height: 300px; float: left;margin-top: 50px;
+  background-image: url("../../img/aqua/Aquamarine06.jpg"); background-repeat: no-repeat; background-size: contain; }
+.aquaproduct.content06>.text01{width:300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px;float: left;}
+.aquaproduct>.content06>.text02{width: 300px; height: 100px; color: #777;font-size: 0.8rem; line-height: 25px; float: left; }
+

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- login.html -->
+<html lang="ko-KR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!--   <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--[if lte IE9]>
+        <script src="../js/base/html5shiv-printshiv.js"></script>
+        <script src="../js/base/html5shiv.js"></script>
+
+    <![endif]-->
+    
+
+    <!--[if IE]>
+    <![endif]-->
+    <!-- fontAwesome and nanumGothicFont -->
+    <link rel="stylesheet" href="../../fontawesome_new/web-fonts-with-css/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../../font/localFont/transfonterNanum/stylesheet.css">
+
+    <!-- css Reset and globalClass -->
+    <link rel="stylesheet" href="../../css/base/reset.css">
+    <link rel="stylesheet" href="../../css/base/common.css">
+    <!-- use css -->
+    <link rel="stylesheet" href="../../css/src/import.css">
+
+    <link rel="stylesheet" href="../../css/src/login.css">
+    <!-- faviconFile -->
+    <link rel="apple-touch-icon" href="../../favicon.png">
+    <link rel="shortcut icon" href="../../favicon.png" type="image/x-icon">
+  <title>login</title>
+
+</head>
+<body>
+  <div id="wrap">
+  <!-- #contentBox ============================== -->
+  <article id="contentBox">
+    <h2 class="title">login</h2>
+    <form action="#" method="post" class="loginbox">
+      <fieldset>
+        <legend class="hidden">login</legend>
+        <div class="login_form">
+          <input type="radio" name="member" value="member" id="member">
+          <label for="member" class="member">회원</label>
+
+          <input type="radio" name="member" value="nonmember" id="member">
+          <label for="member">비회원(주문조회)</label>
+        </div>
+        <ul>
+          <li class="id_box">
+           <input type="text" id="idName" name="id" value="" placeholder="id" class="id" />
+           <label for="idName" class="hidden">id를 입력하세요.</label>
+          </li>
+
+          <li class="pw_box">
+            <input type="password" id="pwName" name="pwName" value="" placeholder="pw" class="pw" />
+            <label for="pwName" class="hidden">비밀번호를 입력하세요</label>
+          </li>
+        <div class="login_area"><button type="button">login</button></div>
+
+        <li class="id_storage">
+          <input type="checkbox" name="checkSelect" id="check_01" value="아이디 저장">
+          <lebel for="check_01">아이디 저장</lebel>
+        </li>
+       <li class="pw_security">
+         <input type="checkbox" name="checkSelect" id="check_02" value="보안접속(SSL)">
+         <lebel for="check_02">보안접속(SSL)</lebel>
+       </li>
+     </ul>
+  
+      </fieldset>
+    </form>
+
+      <dl>
+        <dt>아직 뷰티넷 회원이 아니세요?
+        <br />회원이 되시면 회원에게만 제공되는 다양한 혜택을 누리실 수 있습니다.</dt>
+        <dd class="membership"><a href="#">회원가입</a></dd>
+    </dl>
+      </ul>
+
+      <div class="service_box">
+        <span class="special">뷰티넷 <br>제공 <br>서비스</span>
+        <ul class="list">
+          <li class="li_01">
+            <div class="fir">01 <br> 브랜드를 한번에! <span>쇼핑몰</span></div>
+            <div class="sec">브랜드별 구매 금액별 사은품</div>
+            <div class="third"><a href="http://missha.beautynet.co.kr/main.do"><i class="fa fa-shopping-cart"></i></a></div>
+          </li>
+
+          <li class="li_01">
+            <div class="fir">02 <br> 구매 전 체험! <span>샘플창고</span></div>
+            <div class="sec">뷰티넷에서 제품 구매시 샘플</div>
+            <div class="third"><a href="http://missha.beautynet.co.kr/sampleGoods.list.do?brandNumber=1"><i class="fa fa-gift"></i></a></div>
+          </li>
+
+          <li class="li_01">
+            <div class="fir">03 <br> 등급별 혜택! <span>회원등에급</span></div>
+            <div class="sec">큐빅에서 퀸다이아몬드 혜택</div>
+            <div class="third"><a href="http://www.beautynet.co.kr/community/membership_grade_new.do"><i class="fa fa-chess-queen"></i></a></div>
+          </li>
+
+          <li class="li_01 last">
+            <div class="fir">04 <br> 화장품! <span>경매</span></div>
+            <div class="sec">제품 구매를 통해 적립된BM</div>
+            <div class="third"><a href="http://www.beautynet.co.kr/auction/bm_list.do?type=06&kind=current"><i class="fa fa-certificate"></i></a></div>
+          </li>
+
+        </ul>
+      </div>
+    
+  </article>
+</div>
+
+<!-- top ============================== -->
+<div class="top_btn">
+      <a href="#">Top</a>
+    </div>
+  
+</div>
+  <!-- script -->
+    <script src="../../js/base/jquery-3.2.1.js"></script>
+    <script src="../../js/base/jquery-ui.js"></script>
+    <script src="../../js/src/import.js"></script>
+    <script>
+      (function($){
+     // .top_btn ====================================
+    var topBtn    = $('.top_btn');
+    var bannerBox = $('#contentBox').offset().top;
+    // console.log(bannerBox);
+    $(window).on('scroll', function(){
+        var scroll_top = $(this).scrollTop();
+        console.log(scroll_top);
+        if(scroll_top >= 500){
+            topBtn.fadeIn();
+
+        }else{
+            topBtn.fadeOut();
+        }
+    });
+
+    })(this.jQuery);
+    </script>
+
+</body>
+</html>

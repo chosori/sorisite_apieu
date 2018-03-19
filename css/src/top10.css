@@ -1,0 +1,84 @@
+/* #bannerBox =================================== */
+#bannerBox{width: 100%;min-width: 960px; height: 400px;}
+.title{width: 100px; height: 35px; text-align: center; float: left; margin-top: 70px; margin-left:240px; font-size: 2rem; font-weight: bold; color: #fff; border-bottom: 4px solid #fff;}
+#bannerBox>.bannerImg{width: 100%; height: 400px;
+background-image: url("../../img/top10/top10.png");
+background-repeat: no-repeat;
+ background-size: cover;}
+
+/* #contentBox ============================================= */
+#contentBox{width: 100%;min-width: 960px; height: 2500px; padding: 0 3.7rem; box-sizing: border-box;}
+h3{width: 100%; height: 40px; border-bottom: 1px solid #eee; line-height: 40px; color: #ff99cc; margin-top: 30px;}
+.top10product{width: 960px;height: 100%;margin: auto;}
+.top10product>dl.content01{width: 300px; height: 500px; float: left; margin-left: 20px; margin-top: 80px;}
+.top10product>dl>.contentImg01{width: 300px; height: 300px;margin-top: 50px; float: left; background-image: url("../../img/top10/best01.jpg"); background-repeat: no-repeat;
+background-size: contain;}
+.top10product>dl>.text01{width: 300px; height: 30px;line-height: 30px; font-size: 1rem; font-weight: bold;margin-top: 10px; float: left;}
+.top10product>dl>.text02{width: 300px; height: 100px; color: #777;font-size: 0.8rem; line-height: 25px; float: left;}
+
+.top10product>.content02{width: 300px; height: 500px; float: left; margin-left: 20px;margin-top: 80px;}
+.top10product>dl>.contentImg02{width: 300px; height: 300px; float: left; margin-top: 50px; background-image: url("../../img/top10/best02.jpg"); background-repeat: no-repeat;
+background-size: contain; }
+.top10product>.content02>.text01{width: 300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px;float: left;}
+.top10product>.content02>.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left;font-size: 0.8rem; }
+
+.top10product>dl.content03{width: 300px; height: 500px; float: left; margin-left: 20px;margin-top: 80px;}
+.top10product>dl>.contentImg03{width: 300px; height: 300px; float: left;margin-top: 50px; background-image: url("../../img/top10/best03.jpg"); background-repeat: no-repeat;
+background-size: contain;}
+.top10product>.content03>.text01{width: 300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px; float: left;}
+.top10product>.content03>.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; font-size: 0.8rem;}
+
+.top10product>dl.content04{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.top10product>dl>.contentImg04{width: 300px; height: 300px; float: left; margin-top: 50px;
+background-image: url("../../img/top10/best04.jpg"); background-repeat: no-repeat;
+background-size: contain; }
+.top10product>.content04>.text01{width: 300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px;float: left;}
+.top10product>.content04>.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; font-size: 0.8rem;}
+
+.top10product>dl.content05{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.top10product>dl>.contentImg05{width: 300px; height: 300px; float: left; margin-top: 50px; background-image: url("../../img/top10/best05.jpg"); background-repeat: no-repeat;
+background-size: contain; }
+.top10product>.content05>.text01{width: 300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px; float: left;}
+.top10product>.content05>.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; font-size: 0.8rem; }
+
+.top10product>.content06{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.top10product>dl>.contentImg06{width: 300px; height: 300px; float: left; margin-top: 50px; background-image: url("../../img/top10/best06.jpg"); background-repeat: no-repeat;
+background-size: contain;}
+.top10product>.content06>.text01{width:300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px; float: left;}
+.top10product>.content06>.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; font-size: 0.8rem;}
+
+.top10product>dl.content07{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.top10product>dl>.contentImg07{width: 300px; height: 300px; float: left; margin-top: 50px; background-image: url("../../img/top10/best07.jpg"); background-repeat: no-repeat;
+background-size: contain;}
+.top10product>.content07>.text01{width:300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px; float: left;}
+.top10product>.content07>.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; font-size: 0.8rem;}
+
+.top10product>dl.content08{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.top10product>dl>.contentImg08{width: 300px; height: 300px; float: left; margin-top: 50px; background-image: url("../../img/top10/best08.jpg"); background-repeat: no-repeat;
+background-size: contain;}
+.top10product>.content08>.text01{width:300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px; float: left;}
+.top10product>.content08>.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; font-size: 0.8rem;}
+
+.top10product>.content09{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.top10product>dl>.contentImg09{width: 300px; height: 300px; float: left;margin-top: 50px; background-image: url("../../img/top10/best09.jpg"); background-repeat: no-repeat;
+background-size: contain;}
+.top10product>.content09>.text01{width:300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px; float: left;}
+.top10product>.content09>.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; font-size: 0.8rem;}
+
+.top10product>.content10{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.top10product>dl>.contentImg10{width: 300px; height: 300px; float: left; margin-top: 50px; background-image: url("../../img/top10/best10.jpg"); background-repeat: no-repeat;
+background-size: contain;}
+.top10product>.content10>.text01{width:300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px;  float: left;}
+.top10product>.content10>.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; font-size: 0.8rem;}
+
+.top10product>.content11{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.top10product>dl>.contentImg11{width: 300px; height: 300px; float: left; margin-top: 50px;background-image: url("../../img/top10/best11.jpg"); background-repeat: no-repeat;
+background-size: contain; }
+.top10product>.content11>.text01{width:300px; height: 30px; line-height: 30px; font-size: 1.5rem; font-weight: bold; margin-top: 10px; /*margin-left: 100px;*/ float: left;}
+.top10product>.content11>.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; }
+
+.top10product>dl.content12{width: 300px; height: 500px; float: left; margin-left: 20px;}
+.top10product>dl>.contentImg12{width: 300px; height: 300px; float: left; margin-top: 50px; background-image: url("../../img/top10/best12.jpg"); background-repeat: no-repeat;
+background-size: contain;}
+.top10product>.content12>.text01{width:300px; height: 30px; line-height: 30px; font-size: 1rem; font-weight: bold; margin-top: 10px;float: left;}
+.top10product>.content12>dd.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; font-size: 0.8rem; }

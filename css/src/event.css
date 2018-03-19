@@ -1,0 +1,97 @@
+/* #contentBox ============================================= */
+#contentBox{width: 100%; height: 3300px; padding: 0 3.7rem; box-sizing: border-box;}
+.title{width: 200px; height: 50px;line-height: 50px; color: #333; margin-top: 20px; font-size: 3.5rem; text-align: center;}
+#lnb{width: 100%; height: 60px; margin-top: 30px; border-bottom: 1px solid #eee;}
+#lnb>ul{width: 100%; height: 60px;}
+#lnb a{display: block; width: 100%; height: 100%; color: #333; font-size: 1rem;}
+#lnb a:focus,
+#lnb a:hover{color: #ff99cc;width: 130px; border-bottom: 3px solid #ff99cc;}
+#lnb>ul>.nav01{width: 120px; height: 40px; float: left; text-align: center; line-height: 40px; margin-top: 10px; margin-left: 50px; font-weight: bold;}
+#lnb>ul>.nav02{width: 120px; height: 40px; float: left; text-align: center; line-height: 40px; margin-top: 10px; margin-left: 50px; font-weight: bold;}
+#lnb>ul>.nav03{width: 120px; height: 40px; float: left; text-align: center; line-height: 40px; margin-top: 10px; margin-left: 50px; font-weight: bold;}
+.nav04{width: 100px; height: 40px; text-align: center; line-height: 40px; margin-left: 50px; margin-top: 50px; font-size: 1.3rem; font-weight: bold; margin-bottom: 50px;}
+
+/*li.view{display: block; color: #aaf;}*/
+
+.eventproduct{width: 1300px;height: 100%; margin:0 auto;}
+.eventproduct>.content01{width: 500px; height: 450px; float: left; margin-left: 100px; border: 1px solid #eee; margin-top: 80px;}
+.eventproduct>dl>.contentImg01{width: 500px; height: 300px; float: left;background-image: url("../../img/event/event01.jpg"); background-repeat: no-repeat;
+background-size:cover;}
+.eventproduct>dl>.text01{width: 500px; height:40px;line-height: 40px; font-size: 1.3rem; font-weight: bold; float: left; margin-left: 10px;}
+.eventproduct>dl>.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; margin-top: 30px; margin-left: 10px;}
+
+.eventproduct>dl.content02{width: 500px; height: 450px; float: left; margin-left: 100px; border: 1px solid #eee; margin-top: 80px;}
+.eventproduct>dl>dt.contentImg02{width: 500px; height: 300px; float: left;
+  background-image: url("../../img/event/event02.jpg"); background-repeat: no-repeat;
+background-size: cover; background-position: 30%;}
+.eventproduct>.content02>dd.text01{width: 500px; height: 40px; line-height: 30px; font-size: 1.3rem; font-weight: bold; margin-top: 10px;  float: left;font-weight: bold; margin-left: 10px;}
+.eventproduct>.content02>dd.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; margin-left: 10px;}
+
+
+
+.eventproduct>dl.content03{width: 500px; height: 450px; float: left; margin-left: 100px; border: 1px solid #eee; margin-top: 100px;}
+.eventproduct>dl>dt.contentImg03{width: 500px; height: 300px; float: left;background-image: url("../../img/event/event03.jpg"); background-repeat: no-repeat; background-size: cover;}
+.eventproduct>dl>dd.text01{width: 500px; height:40px;line-height: 40px; font-size: 1.3rem; font-weight: bold; float: left; margin-left: 10px;}
+.eventproduct>dl>dd.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; margin-top: 30px; margin-left: 10px;}
+
+
+
+.eventproduct>dl.content04{width: 500px; height: 450px; float: left; margin-left: 100px; border: 1px solid #eee; margin-top: 100px;}
+.eventproduct>dl>dt.contentImg04{width: 500px; height: 300px; float: left;
+  background-image: url("../../img/event/event04.jpg"); background-repeat: no-repeat;
+background-size: cover; background-position: -25px 0; }
+.eventproduct>.content04>dd.text01{width: 500px; height: 40px; line-height: 30px; font-size: 1.3rem; font-weight: bold; margin-top: 10px;  float: left;font-weight: bold; margin-left: 10px;}
+.eventproduct>.content04>dd.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; margin-left: 10px;}
+
+
+
+
+.eventproduct>dl.content05{width: 500px; height: 450px; float: left; margin-left: 100px; border: 1px solid #eee; margin-top: 100px;}
+.eventproduct>dl>dt.contentImg05{width: 500px; height: 300px;float: left; 
+  background-image: url("../../img/event/event05.jpg"); background-repeat: no-repeat;
+background-size: cover; background-position: 0 -28px;}
+.eventproduct>dl>dd.text01{width: 500px; height:40px;line-height: 40px; font-size: 1.3rem; font-weight: bold; float: left; margin-left: 10px;}
+.eventproduct>dl>dd.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; margin-top: 30px; margin-left: 10px;}
+
+
+
+.eventproduct>dl.content06{width: 500px; height: 450px; float: left; margin-left: 100px; border: 1px solid #eee; margin-top: 100px;}
+.eventproduct>dl>dt.contentImg06{width: 500px; height: 300px; float: left;background-image: url("../../img/event/event06.gif"); background-repeat: no-repeat;
+background-size: cover; background-position: 0 -28px;}
+.eventproduct>.content06>dd.text01{width: 500px; height: 40px; line-height: 30px; font-size: 1.3rem; font-weight: bold; margin-top: 10px;  float: left;font-weight: bold; margin-left: 10px;}
+.eventproduct>.content06>dd.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; margin-left: 10px;}
+
+
+
+.eventproduct>dl.content07{width: 500px; height: 450px; float: left; margin-left: 100px; border: 1px solid #eee; margin-top: 100px;}
+.eventproduct>dl>dt.contentImg07{width: 500px; height: 300px;float: left; 
+  background-image: url("../../img/event/event07.png"); background-repeat: no-repeat;
+background-size: cover; background-position: 0 -28px;}
+.eventproduct>dl>dd.text01{width: 500px; height:40px;line-height: 40px; font-size: 1.3rem; font-weight: bold; float: left; margin-left: 10px;}
+.eventproduct>dl>dd.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; margin-top: 30px; margin-left: 10px;}
+
+
+
+.eventproduct>dl.content08{width: 500px; height: 450px; float: left; margin-left: 100px; border: 1px solid #eee; margin-top: 100px;}
+.eventproduct>dl>dt.contentImg08{width: 500px; height: 300px; float: left;
+  background-image: url("../../img/event/event08.jpg"); background-repeat: no-repeat;
+background-size: cover; background-position: 0 -35px;}
+.eventproduct>.content08>dd.text01{width: 500px; height: 40px; line-height: 30px; font-size: 1.3rem; font-weight: bold; margin-top: 10px;  float: left;font-weight: bold; margin-left: 10px;}
+.eventproduct>.content08>dd.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; margin-left: 10px;}
+
+
+
+.eventproduct>dl.content09{width: 500px; height: 450px; float: left; margin-left: 100px; border: 1px solid #eee; margin-top: 100px;}
+.eventproduct>dl>dt.contentImg09{width: 500px; height: 300px;
+ float: left;  background-image: url("../../img/event/event09.jpg"); background-repeat: no-repeat;
+background-size: cover; background-position: 0 -28px;}
+.eventproduct>dl>dd.text01{width: 500px; height:40px;line-height: 40px; font-size: 1.3rem; font-weight: bold; float: left; margin-left: 10px;}
+.eventproduct>dl>dd.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; margin-top: 30px; margin-left: 10px;}
+
+
+
+.eventproduct>dl.content10{width: 500px; height: 450px; float: left; margin-left: 100px; border: 1px solid #eee; margin-top: 100px;}
+.eventproduct>dl>dt.contentImg10{width: 500px; height: 300px; float: left; background-color: #999;  background-image: url("../../img/event/event10.jpg"); background-repeat: no-repeat;
+background-size: cover; background-position: 0 -60px;}
+.eventproduct>.content10>dd.text01{width: 500px; height: 40px; line-height: 30px; font-size: 1.3rem; font-weight: bold; margin-top: 10px;  float: left;font-weight: bold; margin-left: 10px;}
+.eventproduct>.content10>dd.text02{width: 300px; height: 100px; color: #777; line-height: 25px; float: left; margin-left: 10px;}
