@@ -29,10 +29,10 @@ line-height: 200px; color: #fff;}
 
 
 #contentBox03{width: 100%;min-width: 960px; height: 900px;}
-#contentBox03>ul{width: 1500px; height: 700px; margin: 0 auto; }
-#contentBox03>ul>li{width: 400px; height: 400px; background-color: #eee; float: left; margin-left: 60px; margin-top: 160px; background-repeat: no-repeat; background-position: center;background-size: cover;}
+#contentBox03>ul{width: 100%; height: 700px; margin: 0 auto; }
+#contentBox03>ul>li{width: 350px; height: 350px; background-color: #eee; float: left; margin-left: 60px; margin-top: 160px; background-repeat: no-repeat; background-position: center;background-size: cover;}
 
-#contentBox03>ul>li:nth-child(1){margin-left:180px;
+#contentBox03>ul>li:nth-child(1){margin-left:130px;
   background-image: url("../../img/brandstory/bigimg_01.jpg");}
 #contentBox03>ul>li:nth-child(2){
   background-image: url("../../img/brandstory/bigimg_02.jpg");}
